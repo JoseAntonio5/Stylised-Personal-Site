@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary-color-text: #121212;
+    --secondary-color-text: #fafafa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #38c0de;
+    color: #fff;
+}
+
+.header-content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-content img {
+    margin-top: 10rem;
+    height: 16rem;
+}
+
+.header-content h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    padding: 2rem 0 1.4rem 0;
+}
+
+span {
+    color: #b9f1ff;
+}
+
+.header-content h2 {
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+.personal-container, .content-container, .contact-me {
+    height: 100%;
+    text-align: center;
+}
+
+.personal-container img {
+    height: 16rem;
+    padding: 2.5rem 0;
+    border-radius: 50%;
+}
+
+.personal-container h3 {
+    color: var(--primary-color-text);
+    font-size: 3rem;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.personal-container p {
+    padding: 1.8rem 3.4rem;
+    line-height: 1.6rem;
+}
+
+h4 {
+    text-align: center;
+    font-size: 3rem;
+    color: #cdcdcd;
+    margin-bottom: 3rem;
+}
+
+.content-container img{
+    height: 16rem;
+    padding: 2.5rem 0;
+}
+
+.content-container h3 {
+    color: var(--primary-color-text);
+    font-size: 2.6rem;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.content-container p {
+    padding: 1.8rem 3.4rem;
+    line-height: 1.6rem;
+}
+
+.contact-me h3 {
+    color: var(--primary-color-text);
+    font-size: 2.4rem;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    margin: 2.2rem auto;
+}
+
+.contact-me img {
+    height: 10rem;
+}
+
+.contact-me p {
+    padding: 2rem 3.4rem;
+    line-height: 1.6rem;
+}
+
+.contact-me button {
+    width: 12rem;
+    height: 3.8rem;
+    margin-bottom: 3rem;
+    border-radius: 0.8rem;
+    border: none;
+    outline: none;
+    background-color: #81c7d6;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.contact-me button:hover {
+    background-color: #6cb9ca;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.contact-me button a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: var(--secondary-color-text);
+    font-weight: 600;
+}
+
+.footer-container {
+    height: 80px;
+    background-color: var(--primary-color-text);
+    text-align: center;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    margin: 2rem;
+    transition: .2s ease-in-out;
+}
+
+.footer-container a:hover, i:hover {
+    color: #d6d6d6;
+}
+
+.footer-container .social {
+    padding-top: 1.8rem;
+}
+
+i {
+    margin-right: 0.3rem;
+}
+
+@media (min-width: 750px) {
+    
+    .header-content img {
+        height: 24rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content-container {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    h4 {
+        clear: both;
+    }
+    
+    .header-content h1{
+        font-size: 6rem;
+    }
+
+    .header-content h2 {
+        font-size: 1.8rem;
+    }
+    
+    .header-content img {
+        height: 32rem;
+        margin-top: 4rem;
+    }
+
+    .personal-container {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .personal-container img {
+        height: 24rem;
+        float: right;
+        padding-left: 2rem;
+    }
+
+    .personal-container h3 {
+        text-align: end;
+        padding-top: 3rem;
+    }
+
+    .personal-container p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        padding: 0;
+        text-align: end;
+    }
+
+    .content-container {
+        width: 60%;
+        margin: auto;
+    }
+
+    .content-container img {
+        height: 12rem;
+        padding: 0;
+    }
+
+    .content-container h3 {
+        font-size: 2.4rem;
+        text-shadow: none;
+    }
+
+    .content-container p {
+        padding: 1.2rem 0;
+    }
+
+    .content-one {
+        padding: 4rem 5rem;
+    }
+
+    .content-two {
+        margin-top: 4rem;
+    }
+
+    .content-row {
+        width: 50%;
+        margin: auto;
+    }
+
+    .skills {
+        text-align: start;
+    }
+
+    .alignEnd {
+        text-align: end;
+    }
+
+    .coding-img {
+        float: left;
+        padding-right: 5rem !important;
+    }
+
+    .work-img {
+        float: right;
+        padding-left: 5rem !important;
+    }
+
+    .contact-me p {
+        width: 50%;
+        margin: auto;
+    }
+
+    .contact-me h3 {
+        text-shadow: none;
+        font-size: 2.8rem;
+    }
+
+    .contact-me button {
+        width: 16rem;
+        height: 5rem;
+    }
+
+    .contact-me button a {
+        font-size: 1.8rem;
+    }
+}
