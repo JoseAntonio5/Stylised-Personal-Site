@@ -8,7 +8,7 @@ Os objetivos das aulas dessa seção são aprender mais sobre HTML e algumas pro
 P.S. Projeto desenvolvido em setembro de 2020.
 
 ##### 🇺🇸
-This project is from the course [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) taught by [Dr. Angela Yu](https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/) on Udemy. This project lectures can be found at the section 5 of the course.
+This project is from the course [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) taught by [Dr. Angela Yu](https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/) on Udemy. Its lectures can be found at the section 5 of the course.
 
 The goal of those classes is to learn more about HTML and some CSS properties. The project is a way to put every content learned thought the course into practice.
 
